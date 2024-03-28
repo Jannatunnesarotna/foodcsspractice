@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 90vw;
+  margin: auto;
+}
+
+.dtls{
+    width: 80%;
+    margin: 0auto;
+}
+.headermain {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.headerlogo a {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menubar ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.menubar ul li a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.menubar ul li a:hover {
+  color: rgb(186, 65, 65);
+}
+
+.fa-cart-shopping {
+  position: relative;
+}
+
+.fa-cart-shopping::after {
+  position: absolute;
+  content: "0";
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  color: #fff;
+  font-size: 8px;
+  border-radius: 50%;
+  left: 12px;
+  top: -1px;
+}
+
+.new {
+  background-color: rgb(230, 62, 62);
+  color: #fff;
+  padding: 10px 20px;
+  width: fit-content;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#mainimg-section h1 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+button {
+  border-radius: 20px;
+  padding: 8px 15px;
+  border: none;
+}
+
+.mainbtn {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.doller {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.dtls {
+  display: flex;
+  width: 100%;
+}
+
+#mainimg-section {
+  width: 60%;
+}
+
+.lorem {
+  width: 350px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.learn {
+  background-color: black;
+  color: #fff;
+  width: 200px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.learn span {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.maindoller {
+  display: flex;
+
+  gap: 100px;
+}
+
+.maindivs {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.burgerimg {
+  background-color: #fbf8f6;
+  height: 300px;
+  width: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.burgerimg h3 {
+  text-align: center;
+}
+
+.burgerimg button{
+    background-color: #ff3939;
+    color: #fbf8f6;
+}
+
+.burgerimg a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+    
